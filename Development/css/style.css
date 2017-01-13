@@ -11,8 +11,6 @@ Primary use:    MultiPurpose Template
 
 @import "font-awesome.min.css";
 @import "et-line.css";
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
-
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -2522,7 +2520,7 @@ hr.black {
 }
 
 .bg-gray {
-    background-color: #f4f4f4;
+    background-color: #8dc641;
 }
 
 .bg-gray-lighter {
@@ -3378,6 +3376,8 @@ hr.black {
    Portfolio
    ============================== */
 
+/* Additional CSS & Classes */
+
 
 /*
  * Works filter
@@ -3513,6 +3513,7 @@ hr.black {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .work-descr {
@@ -3521,6 +3522,7 @@ hr.black {
     text-transform: uppercase;
     color: #aaa;
     line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .works-grid.hide-titles .work-item>a {
@@ -4105,7 +4107,7 @@ hr.black {
 }
 
 .ci-text {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
 }
 
